@@ -1,0 +1,113 @@
+.navbar-brand img {
+    height: 80px;
+    width: auto;
+  }
+
+  .fundo {
+    width: 100%;
+    height: auto;
+  }
+
+  .project {
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .project-text h4 {
+    font-size: 1.5rem;
+  }
+
+  .project-text p {
+    font-size: 1rem;
+  }
+
+  /* Ajustes de responsividade */
+  @media (max-width: 768px) {
+    .project-text h4 {
+      font-size: 1.25rem;
+    }
+
+    .project-text p {
+      font-size: 0.875rem;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .project img {
+      margin-bottom: 20px;
+    }
+  }
+
+.navbar-nav {
+    display: flex; 
+    justify-content: center; 
+    width: 100%; 
+  }
+.navbar{
+    width: 77%;
+    justify-content: center;
+    position: absolute !important;
+    background-color: transparent!important;
+}
+.navbar-brand {
+  margin: 0 auto; 
+}
+.navbar a{
+    display: block!important;
+    text-decoration: none;
+}
+
+.navbar [id^="sb"] {
+    color: white!important;
+}
+
+.navbar li {
+    display: inline-block;
+    position: relative;  
+    color: transparent;
+    text-decoration: none;
+    padding: 20px 55px 20px 55px; 
+}
+.navbar-brand img {
+  height: 100px;
+  width: auto; 
+}
+.sobre{
+    color: white;
+    position: absolute;
+}
+.projects-section{
+    background-color:#A4ACAD!important ;
+}
+.projects-section a:hover{
+    opacity: .5;
+    background: inherit;
+    transition: 60ms all;
+}
+ .bg-black{
+    background-color: #023059!important;
+} 
+.baixo  {
+    background-color: #023059;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    width: 100%!important;
+}
+
+.navbar-toggler{
+    color: white !important;
+}
+.bg-white{
+    background-color:#172601!important;
+}
+.navbar-toggler{
+    color: white!important;
+    background-color: white!important;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+body{
+    background-color:#A4ACAD!important ;
+}

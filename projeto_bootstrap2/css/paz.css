@@ -1,0 +1,45 @@
+body{
+    background-color:#737373!important;
+}
+.navbar{
+    width: 100% !important;
+    position: absolute !important;
+    margin: 0 !important;
+    background-color: transparent!important;
+}
+.navbar a{
+    display: block!important;
+    text-decoration: none;
+}
+
+.navbar [id^="sb"] {
+    color: white!important;
+}
+
+.navbar ul  {
+    text-align: center !important;
+}
+
+.navbar li {
+    display: inline-block;
+    position: relative;  
+    color: transparent;
+    text-decoration: none;
+    padding: 20px 55px 20px 55px; 
+}
+.fundo{
+    width: 100%;
+    height: inherit;
+}
+.bg-white{
+    background-color:#595731!important;
+}
+.mb-0{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+}
+.navbar-toggler{
+    color: white!important;
+    background-color: white!important;
+}

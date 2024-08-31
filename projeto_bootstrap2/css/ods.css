@@ -1,0 +1,85 @@
+body{
+    background-color: #172601!important;
+    color: white;
+}
+.fundo{
+    width: 100%;
+    height: inherit;
+}
+.navbar{
+    width:auto !important;
+    margin: 0 !important;
+    position: absolute !important;
+    background-color: transparent!important;
+}
+.navbar a{
+    display: block!important;
+    text-decoration: none;
+}
+
+.navbar [id^="sb"] {
+    color: white!important;
+}
+
+.navbar ul  {
+    text-align: right;
+}
+
+.navbar li {
+    display: inline-block;
+    position: relative;  
+    color: transparent;
+    color: inherit;
+    text-decoration: none;
+    display: block; 
+    padding: 20px 55px 20px 55px; 
+}
+.sobre{
+    color: white;
+    position: absolute;
+}
+ .bg-black{
+    height: 300px!important;
+    background-color: #172601!important;
+} 
+    .text-center-custom{
+        text-align: center!important;
+    }
+    .dz li {
+        background-color: transparent;
+        display: inline-block!important;
+        position: relative!important;
+        width: 300px!important;
+        height: 500px!important;
+    }
+    .card{
+        background-color: transparent;
+        color: #A4ACAD!important;
+    }
+    .dz {
+        align-content: center!important;
+        background-color: transparent;
+        width: 100%;
+        text-align: center;
+    }
+    .centro{
+        text-align: center!important;
+    }
+    .navbar-toggler{
+        color: white!important;
+        background-color: white!important;
+    }
+    /* Responsive styles */
+@media (min-width: 576px) {
+    .card-item {
+      width: 50%;
+    }
+    
+  }
+  
+  
+  /* Optional: adjust card image size for smaller screens */
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
